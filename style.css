@@ -1,0 +1,63 @@
+@font-face{
+
+    font-family: consola; 
+    src: url(/font/consola.ttf)
+}
+
+p{
+    font-size: 11px;
+    font-family: 'Inconsolata', monospace; 
+    font-size: 11px; 
+    color: #161616; 
+    opacity: 0.5; 
+}
+
+.card{
+   width: 253px;
+   height: 246px; 
+   /* display: flex; 
+   flex-direction: row; */
+   border: 1PX solid #FFA404; 
+   padding: 10px;
+}
+
+.dot{
+    height: 16px; 
+    width: 16px; 
+    background-color: #FFA404; 
+    border-radius: 50%;
+    /* display: inherit;  */
+    /* margin-top: 9px; */
+    margin-left: 5px; 
+    float: right;
+}
+
+.date{
+    font-family: 'Inconsolata', monospace;
+    font-size: 11px;
+    
+}
+
+.status{
+
+    font-family: 'Inconsolata', monospace; 
+    float: right;
+
+    /* display: flex;
+    margin-left: auto;     */
+}
+
+.politician-info {
+    display: flex
+}
+
+.politician-info > div {
+    /* display: inline-block */
+}
+
+
+
+.politician-info-img > img {
+    width: 35px;
+    margin: 10px
+}
